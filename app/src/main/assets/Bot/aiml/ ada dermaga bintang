@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<topic name="DISINI BISA JALAN-JALAN DI HUTAN PINUS">
+<category><pattern>* FASILITAS *</pattern>
+<template> menikmatin sunset</template>
+</category></topic>
+
+</aiml>

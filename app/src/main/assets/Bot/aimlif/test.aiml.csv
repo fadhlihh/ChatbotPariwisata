@@ -1,0 +1,242 @@
+0,*,*,*,Halo. ada yang bisa aku bantu? Kali ini wisata yang aku tau cuman ada di BANDUNG dan BOGOR. Tapi nanti update lagi kook. Untuk keyword umumnya saat ini ada Lokasi#Comma Toilet#Comma Hotel terdekat#Comma Hotel termurah#Comma dan Fasilitas. Kamu mau pergi yang ada di kota apa?,test.aiml
+0,HALO,*,*,<random><li> Halo juga. Mau liburan kemana?</li><li> Hai. Mau pergi berlibur yang ada di kota apa?</li></random>,test.aiml
+0,TERIMA KASIH,*,*,<random><li>Sama-sama</li><li>Terima kasih kembali!</li></random>,test.aiml
+0,BOGOR,*,*,Hmm gimana kalau di <set name="topic"><random><li>The Jungle Water Adventure</li><li>Taman Safari</li><li>The Highland Park Resort</li><li>Curug Bidadari Sentul</li></random></set>?(Ketik "Ayo" kalau tertarik dengan tempat ini#Comma ketik nama kotanya lagi untuk mencari tempat lain),test.aiml
+0,_ BOGOR,*,*,<srai>BOGOR</srai>,test.aiml
+0,BOGOR *,*,*,<srai>BOGOR</srai>,test.aiml
+0,_ BOGOR *,*,*,<srai>BOGOR</srai>,test.aiml
+0,BANDUNG,*,*,Hmm gimana kalau di <set name="topic"><random><li>Farmhouse Lembang</li><li>Puncak Bintang</li><li>Saung Angklung Udjo</li><li>Gunung Putri Lembang</li></random></set>?(Ketik "Ayo" kalau tertarik dengan tempat ini#Comma ketik nama kotanya lagi untuk mencari tempat lain),test.aiml
+0,_ BANDUNG,*,*,<srai>Bandung</srai>,test.aiml
+0,BANDUNG *,*,*,<srai>Bandung</srai>,test.aiml
+0,_ BANDUNG *,*,*,<srai>Bandung</srai>,test.aiml
+0,AYO,*,FARMHOUSE LEMBANG,Okee. Farmhouse Lembang tempatnya nyaman loh. Wajib dikunjungin kalau belum pernah dateng. Udaranya sejuk terus bisa ngeliat peternakan disana. Disini harga tiket masuknya Rp20.000 dan dapat tiketnya bisa buat ditukar dengan segelas susu. Lahan parkir cukup luas kok. Buka setiap hari dan jam bukanya dari pukul 08.00 dan tutup pukul 19.00 untuk weekday dan pukul 20.00 untuk weekend,test.aiml
+0,*,*,FARMHOUSE LEMBANG,<random><li>Hmm di Farmhouse Lembang bagus kok</li><li>Di Farmhouse tempatnya salah satu yang direkomendasi loooh</li><li>Kalau di Farmhouse biasanya bisa ngeliat banyak sapi. Domba juga ada. Pokoknya rame deh disini</li></random>,test.aiml
+0,LOKASI,*,FARMHOUSE LEMBANG,Lokasi Farmhouse Lembang tepatnya ada di Jl. Raya Lembang No.108 Gudangkahuripan Lembang Bandung Barat,test.aiml
+0,_ LOKASI,*,FARMHOUSE LEMBANG,<srai>Lokasi</srai>,test.aiml
+0,LOKASI *,*,FARMHOUSE LEMBANG,<srai>Lokasi</srai>,test.aiml
+0,_ LOKASI *,*,FARMHOUSE LEMBANG,<srai>Lokasi</srai>,test.aiml
+0,TOILET,*,FARMHOUSE LEMBANG,Kalau toilet tempatnya ada di dekat pintu masuk. Kalau bingung arahnya kemana coba ingat ingat lagi. Atau tanya petugas setempat. Hati-hati dijalan ya!,test.aiml
+0,_ TOILET,*,FARMHOUSE LEMBANG,<srai>Toilet</srai>,test.aiml
+0,TOILET *,*,FARMHOUSE LEMBANG,<srai>Toilet</srai>,test.aiml
+0,_ TOILET *,*,FARMHOUSE LEMBANG,<srai>Toilet</srai>,test.aiml
+0,* HOTEL * TERDEKAT *,*,FARMHOUSE LEMBANG,Hotel disini yang terdekat adalah Trizara Resorts di Jl. Pasirwangi Wetan Lembang Indonesia. Hanya 1 K.M dari Farmhouse Lembang. Harga semalam adalah Rp1.200.000,test.aiml
+0,* TERDEKAT * HOTEL *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL TERDEKAT *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT,*,FARMHOUSE LEMBANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL * TERMURAH *,*,FARMHOUSE LEMBANG,Hotel disini yang termurah adalah Grand Hotel Lembang di Jl. Raya Lembang No.272 Lembang Kabupaten Bandung Barat Jawa Barat 40391. Harga semalam adalah Rp400.000,test.aiml
+0,* TERMURAH * HOTEL *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL TERMURAH *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH,*,FARMHOUSE LEMBANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL * DAFTAR *,*,FARMHOUSE LEMBANG,Hotel yang ada di lembang diantaranya :Villa Bantal Guling#Comma Villa Lemon#Comma Bumi Makmur#Comma Indah Hotel#Comma Villa Chocolate#Comma Kastuba Resort#Comma The Green Forest Resort#Comma,test.aiml
+0,* DAFTAR * HOTEL *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* HOTEL *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL *,*,FARMHOUSE LEMBANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL,*,FARMHOUSE LEMBANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,FASILITAS *,*,FARMHOUSE LEMBANG,<srai> * Fasilitas * </srai>,test.aiml
+0,* FASILITASNYA *,*,FARMHOUSE LEMBANG,<srai> * Fasilitas * </srai>,test.aiml
+0,FASILITASNYA *,*,FARMHOUSE LEMBANG,<srai> * Fasilitas * </srai>,test.aiml
+0,AYO,*,PUNCAK BINTANG,Okee. Puncak Bintang ya. Disini harga tiket masuknya Rp15.000. Untuk parkir sekitar Rp5.000. Kalau mau camping harga tiketnya Rp20.000 dan tarif parkirnya Rp15.000. Buka setiap hari dan jam bukanya dari pukul 08.00 - 23.50.,test.aiml
+0,*,*,PUNCAK BINTANG,<random><li>Wah Puncak Bintang ya. Enak banget ini tempatnya. Sejuk lagi</li><li>Disini bisa jalan-jalan di Hutan Pinus loh</li><li>Sunset disini wah banget. Wajib dicoba deh</li></random>,test.aiml
+0,TOILET,*,PUNCAK BINTANG,Kalau toilet tempatnya ada di dekat pintu masuk. Kalau bingung arahnya kemana coba ingat ingat lagi. Atau tanya petugas setempat. Hati-hati dijalan ya!,test.aiml
+0,_ TOILET,*,PUNCAK BINTANG,<srai>Toilet</srai>,test.aiml
+0,TOILET *,*,PUNCAK BINTANG,<srai>Toilet</srai>,test.aiml
+0,_ TOILET *,*,PUNCAK BINTANG,<srai>Toilet</srai>,test.aiml
+0,LOKASI,*,PUNCAK BINTANG,Puncak bintang ini lokasinya berada di Kampung Buntis Bongkor Kecamatan Cimenyan Kabupaten Bandung. Pakai mobil atau motor juga bisa kesini kok,test.aiml
+0,_ LOKASI,*,PUNCAK BINTANG,<srai>Lokasi</srai>,test.aiml
+0,LOKASI *,*,PUNCAK BINTANG,<srai>Lokasi</srai>,test.aiml
+0,_ LOKASI *,*,PUNCAK BINTANG,<srai>Lokasi</srai>,test.aiml
+0,* HOTEL * TERDEKAT *,*,PUNCAK BINTANG,Hotel disini yang terdekat adalah Maulana Hills Syariah di Jl. Maribaya Timur RT 01 / RW 03 Cibodas Lembang Bandung Jawa Barat Indonesia Lembang. Hanya 1.9 K.M dari Puncak Bintang. Harga semalam adalah Rp430.000,test.aiml
+0,* TERDEKAT * HOTEL *,*,PUNCAK BINTANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL TERDEKAT *,*,PUNCAK BINTANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT *,*,PUNCAK BINTANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT,*,PUNCAK BINTANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL * TERMURAH *,*,PUNCAK BINTANG,Hotel disini yang termurah adalah Wisma New Bukit Kasih di Jl. Maribaya Timur No.307 Cibodas Lembang Bandung Jawa Barat. Harga semalam adalah Rp190.000,test.aiml
+0,* TERMURAH * HOTEL *,*,PUNCAK BINTANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL TERMURAH *,*,PUNCAK BINTANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH *,*,PUNCAK BINTANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH,*,PUNCAK BINTANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL * DAFTAR *,*,PUNCAK BINTANG,Hotel yang ada di dekat Puncak Bintang diantaranya : Villa Bukit Dago Bandung#Comma Kastuba Resort#Comma Bukit Dago Hotel#Comma InterContinental Bandung,test.aiml
+0,* DAFTAR * HOTEL *,*,PUNCAK BINTANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* HOTEL *,*,PUNCAK BINTANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL *,*,PUNCAK BINTANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL,*,PUNCAK BINTANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* FASILITAS *,*,PUNCAK BINTANG,Disini bisa jalan-jalan di hutan pinus#Comma menikmati sunset#Comma ada dermaga bintang#Comma camping#Comma dan sunrise. Disini juga ada mushalla#Comma toilet#Comma tempat istirahat#Comma #CommaAda juga beberapa warung makan lesehan.,test.aiml
+0,FASILITAS *,*,PUNCAK BINTANG,<srai> * Fasilitas * </srai>,test.aiml
+0,* FASILITASNYA *,*,PUNCAK BINTANG,<srai> * Fasilitas * </srai>,test.aiml
+0,FASILITASNYA *,*,PUNCAK BINTANG,<srai> * Fasilitas * </srai>,test.aiml
+0,AYO,*,SAUNG ANGKLUNG UDJO,Okee. Saung Angklung Udjo ya. Disini harga tiket masuknya Rp75.000 saat weekend dan Rp70.000 saat weekday. Buka setiap hari pada pukul 08.00 - 17.00 WIB.,test.aiml
+0,*,*,SAUNG ANGKLUNG UDJO,<random><li>Wah Saung Angklung Udjo ya. Bisa belajar tentang budaya sunda yang banyak nih</li><li>Acara disini rame semua loh. Jangan ragu buat dateng</li><li>Ada angklung#Comma wayang#Comma dan lain-lain. Pokoknya bener bener mendidik deh. Cocok untuk semua umur</li></random>,test.aiml
+0,TOILET,*,SAUNG ANGKLUNG UDJO,Kalau toilet tempatnya ada di dekat tempat makan. Kalau bingung coba tanya petugas setempat,test.aiml
+0,_ TOILET,*,SAUNG ANGKLUNG UDJO,<srai>Toilet</srai>,test.aiml
+0,TOILET *,*,SAUNG ANGKLUNG UDJO,<srai>Toilet</srai>,test.aiml
+0,_ TOILET *,*,SAUNG ANGKLUNG UDJO,<srai>Toilet</srai>,test.aiml
+0,LOKASI,*,SAUNG ANGKLUNG UDJO,Saung Angklung Udjo ini lokasinya berada di Jl. Padasuka No.118#Comma Pasirlayung#Comma Cibeunying Kidul#Comma Kota Bandung#Comma Jawa Barat 40192. Pakai mobil atau motor juga bisa kesini kok,test.aiml
+0,_ LOKASI,*,SAUNG ANGKLUNG UDJO,<srai>Lokasi</srai>,test.aiml
+0,LOKASI *,*,SAUNG ANGKLUNG UDJO,<srai>Lokasi</srai>,test.aiml
+0,_ LOKASI *,*,SAUNG ANGKLUNG UDJO,<srai>Lokasi</srai>,test.aiml
+0,* HOTEL * TERDEKAT *,*,SAUNG ANGKLUNG UDJO,Hotel disini yang terdekat adalah PRIME PARK Hotel Bandung di Jalan P.H.H Mustofa No. 47/57#Comma 40124 Bandung. Harga semalam adalah Rp550.000,test.aiml
+0,* TERDEKAT * HOTEL *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL TERDEKAT *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL * TERMURAH *,*,SAUNG ANGKLUNG UDJO,Hotel disini yang termurah adalah BANTAL GULING TRANS di Jl. Gatot Subroto No.194#Comma Gumuruh#Comma Batununggal#Comma Kota Bandung#Comma Jawa Barat 40274. Harga semalam adalah Rp141.000,test.aiml
+0,* TERMURAH * HOTEL *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL TERMURAH *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL * DAFTAR *,*,SAUNG ANGKLUNG UDJO,Hotel yang ada di dekat Saung Angklung Udjo diantaranya : ZEN ROOMS Basic GOR Cikutra#Comma Homey Rooms#Comma InterContinental Bandung#Comma Marbella Hotel Dago Bandung,test.aiml
+0,* DAFTAR * HOTEL *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* HOTEL *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL *,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL,*,SAUNG ANGKLUNG UDJO,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* FASILITAS *,*,SAUNG ANGKLUNG UDJO,Disini ada tempat souvenir#Comma kuliner khas sunda#Comma taman#Comma guest house#Comma lahan parkir#Comma dan toilet yang bersih,test.aiml
+0,FASILITAS *,*,SAUNG ANGKLUNG UDJO,<srai> * Fasilitas * </srai>,test.aiml
+0,* FASILITASNYA *,*,SAUNG ANGKLUNG UDJO,<srai> * Fasilitas * </srai>,test.aiml
+0,FASILITASNYA *,*,SAUNG ANGKLUNG UDJO,<srai> * Fasilitas * </srai>,test.aiml
+0,AYO,*,THE JUNGLE WATER ADVENTURE,Okee. THE The Jungle Water Adventure. Disini harga tiket masuknya Rp100.000 saat weekend dan Rp85.000 saat weekday. Buka setiap hari pada pukul 09.00 - 17.00 WIB pada saat weekday dan 08.00 - 18.00 pada saat weekend.,test.aiml
+0,*,*,THE JUNGLE WATER ADVENTURE,<random><li>Wah The Jungle Water Adventure ya. Tempat rekreasi yang asyik nih di kota Bogor</li><li>Wahana asyik-asyik. Pasti jadi ga ingin pulang loh</li><li>Ada virtual tour yang disediakan oleh pihak The Jungle Water Adventure loh#Comma yuk cobain. Buka aja websitenya di http://www.thejungleadventure.com/virtual_tour</li></random>,test.aiml
+0,TOILET,*,THE JUNGLE WATER ADVENTURE,Kalau toilet tempatnya ada di dekat tempat penitipan atau loker barang. Kalau bingung coba tanya petugas setempat yaa,test.aiml
+0,_ TOILET,*,THE JUNGLE WATER ADVENTURE,<srai>Toilet</srai>,test.aiml
+0,TOILET *,*,THE JUNGLE WATER ADVENTURE,<srai>Toilet</srai>,test.aiml
+0,_ TOILET *,*,THE JUNGLE WATER ADVENTURE,<srai>Toilet</srai>,test.aiml
+0,LOKASI,*,THE JUNGLE WATER ADVENTURE,The Jungle Water Adventure ini lokasinya berada di Jalan Bogor Nirwana Boulevard#Comma Perumahan Bogor Nirwana Residence#Comma Mulyaharja#Comma Bogor Selatan#Comma Mulyaharja#Comma Bogor Sel.#Comma Kota Bogor#Comma Jawa Barat 16132. Pakai mobil atau motor juga bisa kesini kok,test.aiml
+0,_ LOKASI,*,THE JUNGLE WATER ADVENTURE,<srai>Lokasi</srai>,test.aiml
+0,LOKASI *,*,THE JUNGLE WATER ADVENTURE,<srai>Lokasi</srai>,test.aiml
+0,_ LOKASI *,*,THE JUNGLE WATER ADVENTURE,<srai>Lokasi</srai>,test.aiml
+0,* HOTEL * TERDEKAT *,*,THE JUNGLE WATER ADVENTURE,Hotel disini yang terdekat adalah The 101 Bogor Suryakancana di JL. Suryakancana No. 179 - 181. Harga semalam adalah Rp485.000,test.aiml
+0,* TERDEKAT * HOTEL *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL TERDEKAT *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL * TERMURAH *,*,THE JUNGLE WATER ADVENTURE,Hotel disini yang termurah adalah Sofyan Inn Srigunting di JL.Pangrango No.19#Comma Babakan#Comma Bogor Tengah#Comma Bogor#Comma Jawa Barat#Comma Indonesia. Harga semalam adalah Rp370.000,test.aiml
+0,* TERMURAH * HOTEL *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL TERMURAH *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL * DAFTAR *,*,THE JUNGLE WATER ADVENTURE,Hotel yang ada di dekat The Jungle Water Adventure diantaranya : The Forest Hotel Bogor#Comma Space Hotel#Comma The Mirah Bogor#Comma Zest Hotel Bogor#Comma dan Villa Bukit Angin Mountain dan Resto,test.aiml
+0,* DAFTAR * HOTEL *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* HOTEL *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL *,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL,*,THE JUNGLE WATER ADVENTURE,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* FASILITAS *,*,THE JUNGLE WATER ADVENTURE,Disini ada tenda rombongan#Comma parkir basement#Comma parkiran#Comma P3K#Comma Mushola#Comma Loker#Comma Toilet#Comma Kamar mandi bilas#Comma Food Court#Comma Pelampung Single#Comma Pelampung Double#Comma Cabana#Comma dan Panggung Utama,test.aiml
+0,FASILITAS *,*,THE JUNGLE WATER ADVENTURE,<srai> * Fasilitas * </srai>,test.aiml
+0,* FASILITASNYA *,*,THE JUNGLE WATER ADVENTURE,<srai> * Fasilitas * </srai>,test.aiml
+0,FASILITASNYA *,*,THE JUNGLE WATER ADVENTURE,<srai> * Fasilitas * </srai>,test.aiml
+0,AYO,*,TAMAN SAFARI,Okee. Taman Safari. Disini harga tiket masuknya untuk anak dibawah 5 tahun saat weekday adalah Rp170.000 dan weekend adalah Rp210.000. Untuk orang diatas 6 tahun saat weekday adalah Rp195.000 dan weekend adalah Rp230.000. Buka setiap hari pada pukul 08.30 - 17.00 WIB untuk safari siang. Untuk safari malam pada pukul various animal pada pukul 21:00 WIB sampai Fire Dance pada pukul 22:10 WIB.,test.aiml
+0,*,*,TAMAN SAFARI,<random><li>Disini bisa berkeliling ngeliat binatang looh. Keren-keren binatangnya</li><li>Kalau lagi perjalanan masuk selalu tutup kaca jendela ya</li><li>Ada Baby Zoo#Comma Satwa dengan edukasi#Comma Wahana Themepark#Comma dan lain-lain</li></random>,test.aiml
+0,TOILET,*,TAMAN SAFARI,Kalau toilet tempatnya ada di dekat tempat masuk atau ada di dekat mushalla. Kalau bingung coba tanya petugas setempat yaa,test.aiml
+0,_ TOILET,*,TAMAN SAFARI,<srai>Toilet</srai>,test.aiml
+0,TOILET *,*,TAMAN SAFARI,<srai>Toilet</srai>,test.aiml
+0,_ TOILET *,*,TAMAN SAFARI,<srai>Toilet</srai>,test.aiml
+0,LOKASI,*,TAMAN SAFARI,TAMAN SAFARI ini lokasinya berada di Jalan Kapten Harun Kabir No. 724#Comma Cibeureum#Comma Cisarua#Comma Cibeureum#Comma Cisarua#Comma Bogor#Comma Jawa Barat 16750. Buat kesini disarankan pakai mobil ya. Untuk pengendara motor bisa naik bus setempat untuk masuk kedalam. Gratis kok#Comma tapi tiketnya bayar hehe.,test.aiml
+0,_ LOKASI,*,TAMAN SAFARI,<srai>Lokasi</srai>,test.aiml
+0,LOKASI *,*,TAMAN SAFARI,<srai>Lokasi</srai>,test.aiml
+0,_ LOKASI *,*,TAMAN SAFARI,<srai>Lokasi</srai>,test.aiml
+0,* HOTEL * TERDEKAT *,*,TAMAN SAFARI,Hotel disini yang terdekat adalah The View Villa di Jalan Cibeureum#Comma Citeko#Comma Cisarua#Comma Bogor. Harga semalam adalah Rp1.586.778,test.aiml
+0,* TERDEKAT * HOTEL *,*,TAMAN SAFARI,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL TERDEKAT *,*,TAMAN SAFARI,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT *,*,TAMAN SAFARI,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT,*,TAMAN SAFARI,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL * TERMURAH *,*,TAMAN SAFARI,Hotel disini yang termurah adalah New Sabrina Hotel di Jl. Raya Puncak Km. 79#Comma Jalan Hankam No. 24 RT 02 / 03 Leuwimalang#Comma Cisarua#Comma Puncak#Comma Bogor. Harga semalam adalah Rp230.000,test.aiml
+0,* TERMURAH * HOTEL *,*,TAMAN SAFARI,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL TERMURAH *,*,TAMAN SAFARI,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH *,*,TAMAN SAFARI,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH,*,TAMAN SAFARI,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL * DAFTAR *,*,TAMAN SAFARI,Hotel yang ada di dekat Taman Safari diantaranya : Mini Jack#Comma OYO 232 Hotel Lurus#Comma Villa Yantiq#Comma Wonderful Citamiang#Comma dan Masada Village,test.aiml
+0,* DAFTAR * HOTEL *,*,TAMAN SAFARI,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* HOTEL *,*,TAMAN SAFARI,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL *,*,TAMAN SAFARI,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL,*,TAMAN SAFARI,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* FASILITAS *,*,TAMAN SAFARI,Disini ada Safari Journey#Comma Baby Zoo#Comma Pertunjukan Edukatif#Comma Wahana Taman Safari#Comma Waterpark#Comma Safari Trek#Comma dan Balon Udara,test.aiml
+0,FASILITAS *,*,TAMAN SAFARI,<srai> * Fasilitas * </srai>,test.aiml
+0,* FASILITASNYA *,*,TAMAN SAFARI,<srai> * Fasilitas * </srai>,test.aiml
+0,FASILITASNYA *,*,TAMAN SAFARI,<srai> * Fasilitas * </srai>,test.aiml
+0,AYO,*,THE HIGHLAND PARK RESORT,Okee. The Highland Park Resort. Disini harga per malamnya mulai dari Rp1.458.000. Tempat ini buka 24 jam loh,test.aiml
+0,*,*,THE HIGHLAND PARK RESORT,<random><li>Hmmm menginap disini bener bener nyaman loh. Nuansa Afrika kerasa banget. Dijamin deh</li><li>Kalau bosen tinggal di kota#Comma coba aja semalam untuk menginap di The Highland Park Resort. Suasananya beda banget</li><li>Ada yang jenis Camp Apache#Comma Barak#Comma kamarpun ada yang tipe standard#Comma deluxe#Comma dan superior</li></random>,test.aiml
+0,TOILET,*,THE HIGHLAND PARK RESORT,Kalau toilet tempatnya ada di dekat pusat informasi. Kalau bingung coba tanya petugas setempat yaa,test.aiml
+0,_ TOILET,*,THE HIGHLAND PARK RESORT,<srai>Toilet</srai>,test.aiml
+0,TOILET *,*,THE HIGHLAND PARK RESORT,<srai>Toilet</srai>,test.aiml
+0,_ TOILET *,*,THE HIGHLAND PARK RESORT,<srai>Toilet</srai>,test.aiml
+0,LOKASI,*,THE HIGHLAND PARK RESORT,The Highland Park Resort ini lokasinya berada di Jl. Curug Nangka#Comma Kp Sinarwangi#Comma Sukajadi#Comma Kec Tamansari#Comma 16610 Bogor. Mobil ataupun motor bisa kesini kok.,test.aiml
+0,_ LOKASI,*,THE HIGHLAND PARK RESORT,<srai>Lokasi</srai>,test.aiml
+0,LOKASI *,*,THE HIGHLAND PARK RESORT,<srai>Lokasi</srai>,test.aiml
+0,_ LOKASI *,*,THE HIGHLAND PARK RESORT,<srai>Lokasi</srai>,test.aiml
+0,* HOTEL * TERDEKAT *,*,THE HIGHLAND PARK RESORT,Hotel disini yang terdekat yaa The Highland Park Resort itu sendiri hehehe,test.aiml
+0,* TERDEKAT * HOTEL *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL TERDEKAT *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL * TERMURAH *,*,THE HIGHLAND PARK RESORT,Hotel disini yang termurah adalah The Highland Park Resort itu sendiri hehehe. Tapi harga yang paling murah adalah tipe Tenda Apache dengan harga RpRp1.458.000,test.aiml
+0,* TERMURAH * HOTEL *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL TERMURAH *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL * DAFTAR *,*,THE HIGHLAND PARK RESORT,Tipe penginapan yang ada di Highland Park Resort diantaranya : tipe Bungalow Deluxe#Comma Tenda Apache#Comma Bungalow Standard#Comma Bungalow Superior#Comma dan Tree House,test.aiml
+0,* DAFTAR * HOTEL *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* HOTEL *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL *,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL,*,THE HIGHLAND PARK RESORT,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* FASILITAS *,*,THE HIGHLAND PARK RESORT,Disini ada Gratis WiFi (di lobby)#Comma Restoran dengan live music#Comma Mini market#Comma Lapangan bola#Comma Lapangan golf#Comma Meja bilyar#Comma Ruang meeting dan balai pertemuan#Comma Mini waterpark#Comma Kuda tunggang keliling resort#Comma dan Flying fox,test.aiml
+0,FASILITAS *,*,THE HIGHLAND PARK RESORT,<srai> * Fasilitas * </srai>,test.aiml
+0,* FASILITASNYA *,*,THE HIGHLAND PARK RESORT,<srai> * Fasilitas * </srai>,test.aiml
+0,FASILITASNYA *,*,THE HIGHLAND PARK RESORT,<srai> * Fasilitas * </srai>,test.aiml
+0,AYO,*,CURUG BIDADARI SENTUL,Okee. Curug Bidadari Sentul. Disini harga tiket untuk weekday adalah Rp25.000#Comma dan untuk weekend adalah Rp40.000. Tarif parkir mobil adalah Rp10.000 dan motor adalah Rp4.000. Tempat ini buka pada pukul 06.00 - 17.00 WIB.,test.aiml
+0,*,*,CURUG BIDADARI SENTUL,<random><li>Wah Curug Bidadari indah banget loh. Cobain deh kesini</li><li>Bisa ngeliat sambil main sama keluarga juga. Hehehe pasti asik disini</li><li>Kalau mau kesini jangan lupa foto foto curugnya. Bagus looh#Comma Instagrammable lagi</li></random>,test.aiml
+0,TOILET,*,CURUG BIDADARI SENTUL,Kalau toilet tempatnya ada di dekat tempat makan dan dekat tempat ganti baju. Kalau bingung coba tanya petugas setempat yaa,test.aiml
+0,_ TOILET,*,CURUG BIDADARI SENTUL,<srai>Toilet</srai>,test.aiml
+0,TOILET *,*,CURUG BIDADARI SENTUL,<srai>Toilet</srai>,test.aiml
+0,_ TOILET *,*,CURUG BIDADARI SENTUL,<srai>Toilet</srai>,test.aiml
+0,LOKASI,*,CURUG BIDADARI SENTUL,Curug Bidadari Sentul ini lokasinya berada di Jl. Sentul Paradise Park#Comma Bojong Koneng#Comma Babakan Madang#Comma Bogor#Comma Jawa Barat 16810. Mobil ataupun motor bisa kesini kok.,test.aiml
+0,_ LOKASI,*,CURUG BIDADARI SENTUL,<srai>Lokasi</srai>,test.aiml
+0,LOKASI *,*,CURUG BIDADARI SENTUL,<srai>Lokasi</srai>,test.aiml
+0,_ LOKASI *,*,CURUG BIDADARI SENTUL,<srai>Lokasi</srai>,test.aiml
+0,* HOTEL * TERDEKAT *,*,CURUG BIDADARI SENTUL,Hotel disini yang terdekat adalah The Pelangi Hotel dan Resort Bogor di Jl. Raya Bukit Pelangi No.88#Comma Gunung Geulis#Comma Sentul#Comma Sentul#Comma Bogor. Meskipun terdekat#Comma tapi cukup jauh sih#Comma yaitu 3#Comma3 KM dari Curug Bidadari. Harga permalamnya adalah Rp400.000,test.aiml
+0,* TERDEKAT * HOTEL *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL TERDEKAT *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL * TERMURAH *,*,CURUG BIDADARI SENTUL,Hotel disini yang termurah adalah RedDoorz @ Cibogo Puncak Bogor di Jl. Raya Puncak KM 69#Comma Cibogo#Comma Cipayung Datar#Comma Puncak#Comma Bogor. Harga permalamnya adalah Rp150.000,test.aiml
+0,* TERMURAH * HOTEL *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL TERMURAH *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL * DAFTAR *,*,CURUG BIDADARI SENTUL,Hotel yang ada didekat Curug Bidadari Sentul diantaranya : Edensor Hills Villa#Comma Room Rosomulyo#Comma Campas Outbound#Comma Pasebanan Villa#Comma dan Cottage at Gunung Geulis Camp Area (GGCA),test.aiml
+0,* DAFTAR * HOTEL *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* HOTEL *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL *,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL,*,CURUG BIDADARI SENTUL,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* FASILITAS *,*,CURUG BIDADARI SENTUL,Disini ada Mushalla#Comma toilet#Comma dan ruang ganti,test.aiml
+0,FASILITAS *,*,CURUG BIDADARI SENTUL,<srai> * Fasilitas * </srai>,test.aiml
+0,* FASILITASNYA *,*,CURUG BIDADARI SENTUL,<srai> * Fasilitas * </srai>,test.aiml
+0,FASILITASNYA *,*,CURUG BIDADARI SENTUL,<srai> * Fasilitas * </srai>,test.aiml
+0,AYO,*,GUNUNG PUTRI LEMBANG,Okee. Gunung Putri Lembang yaa. Disini harga tiket apabila hanya berkunjung adalah Rp7.500#Comma dan ketika ingin berkemah adalah Rp17.500. Tarif parkir mobil adalah Rp20.000 dan motor adalah Rp10.000. Tempat ini buka 24 jam#Comma jadi kapanpun bisa datang kesini heheh.,test.aiml
+0,*,*,GUNUNG PUTRI LEMBANG,<random><li>Wah Gunung Putri Lembang ya. indah banget loh#Comma bisa liat sunrise juga. Cobain deh kesini</li><li>Kalau mau berkemah buat keluarga bisa kok kesini juga#Comma tapi hati-hati ya#Comma karena jalannya agak curam</li><li>Dipuncaknya bisa foto-foto wilayah lembang loh. Patahan Lembang juga terlihat dari sana</li></random>,test.aiml
+0,TOILET,*,GUNUNG PUTRI LEMBANG,Kalau toilet tempatnya memang agak jauh dan jarang#Comma biasanya ada di dekat lokasi perkemahan utara. Kalau bingung coba tanya petugas setempat yaa,test.aiml
+0,_ TOILET,*,GUNUNG PUTRI LEMBANG,<srai>Toilet</srai>,test.aiml
+0,TOILET *,*,GUNUNG PUTRI LEMBANG,<srai>Toilet</srai>,test.aiml
+0,_ TOILET *,*,GUNUNG PUTRI LEMBANG,<srai>Toilet</srai>,test.aiml
+0,LOKASI,*,GUNUNG PUTRI LEMBANG,Gunung Putri Lembang ini lokasinya berada di Jl. Gunung Putri No.184#Comma Jayagiri#Comma Lembang#Comma Kabupaten Bandung Barat. Mobil ataupun motor bisa buat parkir kok.,test.aiml
+0,_ LOKASI,*,GUNUNG PUTRI LEMBANG,<srai>Lokasi</srai>,test.aiml
+0,LOKASI *,*,GUNUNG PUTRI LEMBANG,<srai>Lokasi</srai>,test.aiml
+0,_ LOKASI *,*,GUNUNG PUTRI LEMBANG,<srai>Lokasi</srai>,test.aiml
+0,* HOTEL * TERDEKAT *,*,GUNUNG PUTRI LEMBANG,Hotel disini yang terdekat adalah Osmond Villa Resort di Jalan Gunung Putri#Comma Ds Jayagiri#Comma Lembang#Comma Jayagiri#Comma Lembang#Comma Kabupaten Bandung Barat. Jaraknya hanya 0#Comma5 KM dari Gunung Putri Lembang. Harga permalamnya adalah Rp385.000,test.aiml
+0,* TERDEKAT * HOTEL *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL TERDEKAT *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,HOTEL TERDEKAT,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Terdekat * </srai>,test.aiml
+0,* HOTEL * TERMURAH *,*,GUNUNG PUTRI LEMBANG,Hotel disini yang termurah adalah Lingga Guest House Jayagiri Lembang di Jl. Jayagiri No. 50#Comma Lembang#Comma Bandung. Harga permalamnya adalah Rp120.000,test.aiml
+0,* TERMURAH * HOTEL *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL TERMURAH *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,HOTEL TERMURAH,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Termurah * </srai>,test.aiml
+0,* HOTEL * DAFTAR *,*,GUNUNG PUTRI LEMBANG,Hotel yang ada didekat Gunung Putri Lembang adalah Villa Sadulur#Comma Villa Nuansa Alam#Comma Villa Rasberry Garden#Comma Puri Bernadi Guest House#Comma dan La Oma Hotel dan Cafe,test.aiml
+0,* DAFTAR * HOTEL *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* HOTEL *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL *,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,HOTEL,*,GUNUNG PUTRI LEMBANG,<srai> * Hotel * Daftar * </srai>,test.aiml
+0,* FASILITAS *,*,GUNUNG PUTRI LEMBANG,Disini ada mushalla#Comma tempat penyewaan set untuk berkemah#Comma dan toilet,test.aiml
+0,FASILITAS *,*,GUNUNG PUTRI LEMBANG,<srai> * Fasilitas * </srai>,test.aiml
+0,* FASILITASNYA *,*,GUNUNG PUTRI LEMBANG,<srai> * Fasilitas * </srai>,test.aiml
+0,FASILITASNYA *,*,GUNUNG PUTRI LEMBANG,<srai> * Fasilitas * </srai>,test.aiml

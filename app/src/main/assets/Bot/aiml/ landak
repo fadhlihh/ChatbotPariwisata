@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<topic name="FARMHOUSE LEMBANG">
+<category><pattern>* FASILITAS *</pattern>
+<template>Farmhouse disini memiliki daya tarik dimana suasanya tempat dengan khas eropa. Farmhouse menyajikan are Rumah Hobbit. Farmhouse juga terdapat kebun binatang mini dengan binatang seperti iguana</template>
+</category></topic>
+
+</aiml>
